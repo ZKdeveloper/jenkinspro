@@ -3,7 +3,7 @@ pipeline {
     environment {
         AWS_ACCOUNT_ID="780666778635"
         AWS_DEFAULT_REGION="ap-south-1a"
-        IMAGE_REPO_NAME="pathani"
+        IMAGE_REPO_NAME="zubbu_repo"
         IMAGE_TAG="Latest"
         REPOSITORY_URI = "${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_DEFAULT_REGION}.amazonaws.com/${IMAGE_REPO_NAME}"
     }
